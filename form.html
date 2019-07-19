@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Test</title>
+</head>
+<body>
+    <nav>
+        <a href="file:///workspace/homework-ns/index.html">Return to main page</a>
+    </nav>
+    <h1>HTML Form Sample</h1>
+
+    <form method="post" action="https://formspree.io/zakaznataiua@gmail.com">
+        <label>Your Name:
+            <input type="text" placeholder="Your Name" name="user-name">
+        </label><br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Email" name="user-name">
+        <br>
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label><input type="radio" name="gender" value="female">Female</label>
+        <label><input type="radio" name="gender" value="other">Other</label>
+        <br>
+        <label for="book-choise">Choose your favourite type of books:</label>
+        <input list="books" id="book-choice" name="book-choice" />
+
+        <datalist id="books">
+            <option value="novel">
+            <option value="poem">
+            <option value="story">
+        </datalist>
+<br>
+        <input type="Submit">
+    </form>
+</body>
+</html>
